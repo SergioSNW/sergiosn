@@ -146,3 +146,26 @@ body > .is-root-container > .wp-block-template-part > .wp-block-cover,
 	padding-left: var(--wp--custom--spacing--outer);
 }
 
+/*OWN*/
+
+.rainbow-text {
+	display: inline-block;
+	color: transparent;
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-image: linear-gradient(
+			90deg,
+			#ffe993,
+			#eb831c,
+			#CA2266,
+			#ffb6ff,
+			#f4f0d8
+	);
+	will-change: transform;
+	padding-top: 0.5px;
+	overflow: hidden;
+	background-color: #ffe993 0%;
+	margin-top: 29px;
+	font-size: 64px !important;
+	justify-items: center;
+}
